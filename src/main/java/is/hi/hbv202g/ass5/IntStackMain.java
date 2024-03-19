@@ -1,6 +1,7 @@
 package is.hi.hbv202g.ass5;
 
 public class IntStackMain {
+    //This is the main method:)
     public static void main(String[] args) {
         System.out.println("Creating a new stack");
         IntStack myStack = new IntStack();
