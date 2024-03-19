@@ -89,13 +89,20 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+          <mainClass>is.hi.aaa27.hbv202g.ass4.App</mainClass>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
           <mainClass>is.hi.hbv202g.ass5.IntStackMain</mainClass>
         </configuration>
       </plugin>
     </plugins>
-
   </build>
   <reporting>
     <plugins>
@@ -109,5 +116,4 @@
       </plugin>
     </plugins>
   </reporting>
-
 </project>
